@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', function() {
   
     contactForm.addEventListener('submit', function(e) {
       e.preventDefault(); // Prevent form submission
-      // Process the form data here (e.g., send it to a server using AJAX)
+      // Process the form data here
       alert('Form submitted successfully!');
       formInputs.forEach(function(input) {
         input.value = ''; // Clear the value of each form input
